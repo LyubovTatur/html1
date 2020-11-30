@@ -1,4 +1,17 @@
 body
 {
-background: pink
+background-image: url(https://i.pinimg.com/originals/27/e4/16/27e4160b0e3d0b90cbcf6aee8e133951.jpg) ;
+font-size: 30px;
+}
+p
+{
+border: 4px double black; /* Параметры границы */
+background: transparent; /* Цвет фона */
+padding: 10px; /* Поля вокруг текста */
+font-weight: bold;
+
+}
+p:active
+{
+  font-size: 321px;
 }
