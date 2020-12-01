@@ -2,16 +2,45 @@ body
 {
 background-image: url(https://i.pinimg.com/originals/27/e4/16/27e4160b0e3d0b90cbcf6aee8e133951.jpg) ;
 font-size: 30px;
+
 }
 p
 {
-border: 4px double black; /* Параметры границы */
+max-width: 750px;
+margin:0 auto;
 background: transparent; /* Цвет фона */
-padding: 10px; /* Поля вокруг текста */
+padding: 40px; /* Поля вокруг текста */
 font-weight: bold;
-
+border-radius: 50px;
+border: 5px double black; /* Параметры границы */
+background-color:  rgb(334,56,34,0.1);
 }
 p:active
 {
   font-size: 321px;
 }
+img
+{
+width: 0px;
+}
+#logo
+{
+background-color: #123456;
+text-align: center;
+font-family: Arial;
+font-size: 30px;
+color: #999923;
+padding: 0 20px 40px 20px;
+margin-bottom: 32px;
+border-radius: 0 0 20px 20px;
+}
+#logo1{
+	font-family: Baskerville, Palatino, sans-serif;
+	font-size: 2.1em;
+	color: rgba(255, 255, 255, 0.8);
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 36px;
+	background: rgb(190, 180, 110);
+	border-radius: 0 0 10px 10px; /*  верх левый, верх прав, низ прав, низ лев  */
+	padding: 14px;
