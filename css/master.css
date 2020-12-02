@@ -21,7 +21,8 @@ background-color:  rgb(334,56,34,0.1);
 }
 p:active
 {
-  font-size: 321px;
+  font-size: 50px;
+  max-width: 1880px;
 }
 img
 {
@@ -62,7 +63,7 @@ max-width: 1400px;
 marquee
 {
   weight:1400px;
-  font-size: 130px;
+  font-size: 70px;
   font-family:"Press Start 2P";
 
 }
