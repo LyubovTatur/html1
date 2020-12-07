@@ -1,23 +1,28 @@
 body
 {
 background-image: url(https://i.pinimg.com/originals/27/e4/16/27e4160b0e3d0b90cbcf6aee8e133951.jpg) ;
-font-size: 30px;
+font-size: 30px;f\
+
+
 
 }
 p
 {
-max-width: 750px;
-margin:0 auto;
+
+max-width: 940px;
+margin: 20px auto;
 background: transparent; /* Цвет фона */
-padding: 40px; /* Поля вокруг текста */
+padding: 20px; /* Поля вокруг текста */
 font-weight: bold;
+font-size: 20px;
 border-radius: 50px;
 border: 5px double black; /* Параметры границы */
 background-color:  rgb(334,56,34,0.1);
 }
 p:active
 {
-  font-size: 321px;
+  font-size: 50px;
+  max-width: 1880px;
 }
 img
 {
@@ -25,16 +30,19 @@ width: 0px;
 }
 #logo
 {
-background-color: #123456;
+background-color: rgba(200, 0, 0, 0.12);
 text-align: center;
-font-family: Arial;
-font-size: 30px;
-color: #999923;
-padding: 0 20px 40px 20px;
-margin-bottom: 32px;
-border-radius: 0 0 20px 20px;
+font-family:"Monoton", Arial;
+font-size: 60px;
+color: #000 ;
+padding: 20px;
+margin: 0 auto;
+border-radius: 0 0 50px 50px;
+border-color: black;
+max-width: 1400px;
 }
-#logo1{
+#logo1
+{
 	font-family: Baskerville, Palatino, sans-serif;
 	font-size: 2.1em;
 	color: rgba(255, 255, 255, 0.8);
@@ -44,3 +52,38 @@ border-radius: 0 0 20px 20px;
 	background: rgb(190, 180, 110);
 	border-radius: 0 0 10px 10px; /*  верх левый, верх прав, низ прав, низ лев  */
 	padding: 14px;
+}
+.vl {
+    border-left: 100px solid rgba(200, 0, 0, 0.12);
+    height: auto;
+    border-right: 100px solid rgba(200, 0, 0, 0.12);
+
+
+}
+marquee
+{
+  weight:1400px;
+  font-size: 70px;
+  font-family:"Press Start 2P";
+
+}
+.font-Jura
+{
+  font-family: "Jura";
+}
+.font-Underdog
+{
+  font-family: "Underdog";
+}
+a
+{
+  color:black;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: pink;
+  text-decoration: underline;
+}
